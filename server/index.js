@@ -21,6 +21,6 @@ mongoose
                 console.log(`Server is running on port : ${PORT}`);
             });
         })
-        .catch((error) => comsole.log(`${error} did not connect`));
+        .catch((error) => console.log(`${error} did not connect`));
         
 app.use('/api', route);
